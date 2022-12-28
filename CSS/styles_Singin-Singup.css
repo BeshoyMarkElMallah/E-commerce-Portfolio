@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 /* * {
@@ -22,37 +21,37 @@ h1 {
 }
 
 .title-format {
-    position: absolute;
-    width: 307px;
-    height: 40px;
-    left: 12px;
-    top: 180px;
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
+	position: absolute;
+	width: 307px;
+	height: 40px;
+	left: 12px;
+	top: 180px;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
 }
 
 
 .social-button {
-    position: absolute;
-    left: 50px;
-    top: 250px;
+	position: absolute;
+	left: 50px;
+	top: 250px;
 }
 
 .placeholder-signing {
-    position: absolute;
-    width: 252px;
-    height: 19px;
-    left: 53px;
-    top: 320px;
+	position: absolute;
+	width: 252px;
+	height: 19px;
+	left: 53px;
+	top: 320px;
 
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
 }
 
 h2 {
@@ -79,68 +78,152 @@ a {
 }
 
 label {
-    position: relative;
-right: 0;
-    width: 225px;
-    height: 22px;
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    color: #000000;
+	position: relative;
+	width: 225px;
+	height: 22px;
+	margin: 4% 0% 2% 0%;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
 
-    /* Inside auto layout */
+
+
 }
 
-.inputs{
-    box-sizing: border-box;
+.forgot {
+	position: absolute;
+	width: 50%;
+	height: 20px;
+	left: 55%;
+	top: 70%;
 
-/* Auto layout */
-align-items: center;
-padding: 16px 24px;
-gap: 10px;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
 
-width: 346px;
-height: 56px;
+	color: #553BF1;
 
-background: #FFFFFF;
-border: 1px solid #EAEBF7;
-border-radius: 50px;
 
-/* Inside auto layout */
+}
 
-flex: content;
-flex-grow: 0;
+.sign-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 16px 10px;
+	gap: 20px;
 
-} 
+	position: absolute;
+	width: 346px;
+	height: 56px;
+	left: 50%px;
+	top: 80%;
+
+}
+
+.sign-in-form {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.email-address {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+	position: absolute;
+	left: 5%;
+
+
+}
+
+.password {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	/* gap: 12px; */
+
+	position: absolute;
+	left: 50%;
+}
+
+.remember {
+	position: absolute;
+	width: 30%;
+	/* height: 20px; */
+	left: 0.1%;
+	top: 71%;
+}
+
+.img-cont img {
+	position: absolute;
+}
+
+.img-cont {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.icon {
+	padding: 10px;
+	text-align: center;
+}
+
+.inputs {
+	box-sizing: border-box;
+
+	/* Auto layout */
+	align-items: center;
+	padding: 16px 24px;
+	gap: 10px;
+	text-align: center;
+
+	width: 20vw;
+	/* height: 56px; */
+
+	background: #FFFFFF;
+	border: 1px solid #EAEBF7;
+	border-radius: 50px;
+
+
+}
 
 .social-container a {
-    background: linear-gradient(90deg, #00ADB5 -12.59%, #222831 114.44%);
-    box-shadow: 0px 15px 50px rgba(222, 95, 143, 0.12);
-    color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 60px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px;
-    height: 40px;
-    width: 250px;
+	background: linear-gradient(90deg, #00ADB5 -12.59%, #222831 114.44%);
+	box-shadow: 0px 15px 50px rgba(222, 95, 143, 0.12);
+	color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 60px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px;
+	height: 40px;
+	width: 250px;
 }
 
 button {
 	background: linear-gradient(90deg, #00ADB5 -12.59%, #222831 114.44%);
-    box-shadow: 0px 15px 50px rgba(222, 95, 143, 0.12);
-    border-radius: 50px;
-    border: 1px solid #fff;
-    color: #fff;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 12px 45px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: transform 80ms ease-in;
+	box-shadow: 0px 15px 50px rgba(222, 95, 143, 0.12);
+	border-radius: 50px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
 }
 
 button:active {
@@ -158,13 +241,13 @@ button.ghost {
 
 form {
 	background: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 
@@ -174,7 +257,7 @@ form {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-    height:100%;
+	height: 100%;
 	max-width: 100%;
 	min-height: 480px;
 }
@@ -211,12 +294,15 @@ form {
 }
 
 @keyframes show {
-	0%, 49.99% {
+
+	0%,
+	49.99% {
 		opacity: 0;
 		z-index: 1;
 	}
-	
-	50%, 100% {
+
+	50%,
+	100% {
 		opacity: 1;
 		z-index: 5;
 	}
@@ -233,14 +319,15 @@ form {
 	z-index: 100;
 }
 
-.container.right-panel-active .overlay-container{
+.container.right-panel-active .overlay-container {
 	transform: translateX(-100%);
 }
 
 .overlay {
 	/* background: #FF416C; */
 	/* background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); */
-	background: linear-gradient(37.88deg, #00ADB5 0.73%, #181D32 99.09%) no-repeat 0 0 / cover;;
+	background: linear-gradient(37.88deg, #00ADB5 0.73%, #181D32 99.09%) no-repeat 0 0 / cover;
+	;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -249,12 +336,12 @@ form {
 	left: -100%;
 	height: 100%;
 	width: 200%;
-  	transform: translateX(0);
+	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
 }
 
 .container.right-panel-active .overlay {
-  	transform: translateX(50%);
+	transform: translateX(50%);
 }
 
 .overlay-panel {
@@ -295,16 +382,14 @@ form {
 
 .social-container a {
 	background: linear-gradient(90deg, #00ADB5 -12.59%, #222831 114.44%);
-    box-shadow: 0px 15px 50px rgba(222, 95, 143, 0.12);
-    color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 60px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px;
-    height: 40px;
-    width: 250px;
+	box-shadow: 0px 15px 50px rgba(222, 95, 143, 0.12);
+	color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 60px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px;
+	height: 40px;
+	width: 250px;
 }
-
-
