@@ -145,6 +145,12 @@ label {
 
 
 }
+.email-address>label, .password>label {
+display: flex;
+	position: relative;
+
+}
+
 
 .password {
 	display: flex;
@@ -163,6 +169,12 @@ label {
 	/* height: 20px; */
 	left: 0.1%;
 	top: 71%;
+
+	
+}
+
+.remember>label{
+	color: #94969A;
 }
 
 .img-cont img {
