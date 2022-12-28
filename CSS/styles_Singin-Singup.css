@@ -145,7 +145,8 @@ label {
 
 
 }
-.email-address>label, .password>label {
+.email-address>label, .password { 
+	
 display: flex;
 	position: relative;
 
