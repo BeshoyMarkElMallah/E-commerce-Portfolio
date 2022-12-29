@@ -1,0 +1,90 @@
+/* Start header Responsive */
+
+@media (max-width: 767px) {
+    .header .logo {
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+
+    }
+
+    .h-logo {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .header .main-nav>li>a {
+        padding: 10px;
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header .main-nav {
+        /* margin: auto; */
+        display: none;
+    }
+
+    .header .main-nav-log {
+
+        display: none;
+    }
+}
+
+/* Start Landing Responsive */
+
+@media (max-width: 991px) {
+    .landing .text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .landing .text h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .landing .text p {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .landing .text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .landing .image {
+        display: none;
+    }
+}
+
+/* start Projects */
+@media screen and (max-width: 1024px) {
+    .item {
+        width: calc(33.3vw - 20px);
+    }
+
+    .direction {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        width: calc(50vw - 20px);
+    }
+
+    .direction {
+        display: none;
+    }
+}
+
+
+/* Start AboutUS */
