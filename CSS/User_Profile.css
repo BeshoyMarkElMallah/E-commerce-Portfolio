@@ -1,0 +1,359 @@
+:root {
+    --main-color: #222831;
+    --main-color-alt: #52C3CC;
+    --main-color-text: #EEEEEE;
+    --main-transition: 0.3s;
+    /* --section-background: #ececec; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--main-color);
+    height: 1000px;
+  
+}
+
+
+/* start */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/*************************************Start header  *************************************/
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.header .logo {
+    color: var(--main-color-alt);
+    font-size: 3rem;
+    font-weight: bold;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .header .logo {
+        width: 100%;
+        height: 50px;
+    }
+}
+
+.header .main-nav {
+    display: flex;
+    color: var(--main-color-text);
+    flex: 1;
+}
+
+@media (max-width: 767px) {
+    .header .main-nav {
+        margin: auto;
+    }
+}
+
+.header .main-nav>li>a {
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    color: var(--main-color-text);
+    padding: 0 30px;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 27px;
+    transition: var(--main-transition);
+    justify-content: flex-start;
+}
+
+@media (max-width: 767px) {
+    .header .main-nav>li>a {
+        padding: 10px;
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+.header .main-nav-log {
+    display: flex;
+    color: var(--main-color-text);
+    justify-content: flex-end;
+}
+
+.header .main-nav-log>li>a {
+    display: flex;
+    color: var(--main-color-text);
+    padding: 0 30px;
+
+}
+
+.header .container .main-nav-log a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header .container .main-nav-log .LogOut {
+    border-radius: 20px;
+    border: none;
+    background-color: var(--main-color-alt);
+    color: var(--main-color-text);
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/************************************* End header  *************************************/
+
+
+.main .container {
+    min-height: calc(12vh - 72px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.main .text{
+
+    color: var(--main-color-text);
+    flex: 1;
+}
+ /* w */
+ .profile-page .activity img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+
+  .row{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .contant{
+    background-color:var(--main-color-alt) ;
+  }
+
+
+  /************************************* Start User Profile Page *************************************/
+@media (max-width: 767px) {
+    .user-page .overview {
+      flex-direction: column;
+    }
+  }
+  .user-page .avatar-box {
+    width: 300px;
+  }
+  @media (min-width: 768px) {
+    .user-page .avatar-box {
+      border-right: 1px solid var(--main-color-text);
+    }
+  }
+  .user-page .avatar-box > img {
+    width: 120px;
+    height: 120px;
+  }
+  .user-page .avatar-box .level {
+    height: 6px;
+    overflow: hidden;
+    margin: auto;
+    width: 70%;
+  }
+  .user-page .avatar-box .level span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: var(--main-color-text);
+    border-radius: 6px;
+  }
+  .user-page .info-box .box {
+    flex-wrap: wrap;
+    /* border-bottom: 1px solid var(--main-color-text); */
+    transition: 0.3s;
+    color:var(--main-color-text);
+  }
+
+
+  /* flaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaag */
+  .user-page .info-box .box:hover {
+    background-color: #48adb5;
+  }
+  .user-page .info-box .box > div {
+    min-width: 250px;
+    padding: 10px 0 0;
+  }
+  .user-page .info-box h4 {
+    font-weight: normal;
+  }
+  /* Start Training Code */
+  .user-page .info-box .toggle-switch {
+    height: 20px;
+  }
+  @media (max-width: 767px) {
+    .user-page .info-box .toggle-switch {
+      margin: auto;
+    }
+  }
+  .user-page .info-box .toggle-switch::before {
+    width: 12px;
+    height: 12px;
+    font-size: 8px;
+  }
+  
+  /* End Training Code */
+  @media (max-width: 767px) {
+    .user-page.other-data {
+      flex-direction: column;
+    }
+  }
+   /************************************* End User Profile Page *************************************/
+
+
+
+  /************************************* Start Projects *************************************/
+.projects-page {
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+@media (max-width: 767px) {
+  .projects-page {
+    grid-template-columns: minmax(200px, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+}
+.projects-page .project .date {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.projects-page .project h4 {
+  font-weight: normal;
+}
+.projects-page .project .team {
+  position: relative;
+  min-height: 80px;
+}
+.projects-page .project .team a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.projects-page .project .team a:nth-child(2) {
+  left: 25px;
+}
+.projects-page .project .team a:nth-child(3) {
+  left: 50px;
+}
+.projects-page .project .team a:nth-child(4) {
+  left: 75px;
+}
+.projects-page .project .team a:nth-child(5) {
+  left: 100px;
+}
+.projects-page .project .team a:hover {
+  z-index: 1000;
+}
+.projects-page .project .team img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.projects-page .project .do {
+  justify-content: flex-end;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+@media (max-width: 767px) {
+  .projects-page .project .do {
+    flex-direction: column;
+  }
+}
+.projects-page .project .do span {
+  padding: 3px 8px;
+  margin-left: 5px;
+  width: fit-content;
+}
+@media (max-width: 767px) {
+  .projects-page .project .do span:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+.projects-page .project .info {
+  border-top: 1px solid #eee;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+@media (max-width: 767px) {
+  .projects-page .project .info {
+    flex-direction: column;
+  }
+}
+.projects-page .project .prog {
+  height: 8px;
+  width: 260px;
+  position: relative;
+  border-radius: 6px;
+}
+@media (max-width: 767px) {
+  .projects-page .project .prog {
+    margin-bottom: 15px;
+  }
+}
+.projects-page .project .prog span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 6px;
+}
+/************************************* End Projects *************************************/
